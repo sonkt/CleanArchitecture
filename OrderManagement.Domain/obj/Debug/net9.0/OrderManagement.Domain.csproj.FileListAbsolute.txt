@@ -1,0 +1,24 @@
+D:/Projects/CleanArchitecture/OrderManagement.Domain/bin/Debug/net9.0/OrderManagement.Domain.deps.json
+D:/Projects/CleanArchitecture/OrderManagement.Domain/bin/Debug/net9.0/OrderManagement.Domain.dll
+D:/Projects/CleanArchitecture/OrderManagement.Domain/bin/Debug/net9.0/OrderManagement.Domain.pdb
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.csproj.AssemblyReference.cache
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.AssemblyInfoInputs.cache
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.AssemblyInfo.cs
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.csproj.CoreCompileInputs.cache
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.dll
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/refint/OrderManagement.Domain.dll
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.pdb
+D:/Projects/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/ref/OrderManagement.Domain.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/bin/Debug/net9.0/OrderManagement.Domain.deps.json
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/bin/Debug/net9.0/OrderManagement.Domain.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/bin/Debug/net9.0/OrderManagement.Domain.pdb
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.csproj.AssemblyReference.cache
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.AssemblyInfoInputs.cache
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.AssemblyInfo.cs
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/refint/OrderManagement.Domain.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/OrderManagement.Domain.pdb
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/Debug/net9.0/ref/OrderManagement.Domain.dll

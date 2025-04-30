@@ -1,0 +1,25 @@
+@OrderManagement.Api_HostAddress = https://localhost:7195
+
+POST {{OrderManagement.Api_HostAddress}}/api/orders
+Content-Type: application/json
+Accept: application/json
+
+{
+  "orderInfo":{
+    "customerName": "string",
+    "customerEmail": "string",
+    "customerPhone": "string",
+    "customerAddress": "string",  
+    "orderItems": [
+      {
+        "productName": "string",
+        "quantity": 0,
+        "unitPrice": 0
+      }
+    ]
+  },
+}
+###
+GET {{OrderManagement.Api_HostAddress}}/api/orders/78BE020C-2940-45DD-9873-1C900AF1A3CD
+Content-Type: application/json
+Accept: application/json

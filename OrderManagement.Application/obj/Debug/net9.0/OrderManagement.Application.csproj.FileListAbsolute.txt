@@ -1,0 +1,30 @@
+D:/Projects/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Application.deps.json
+D:/Projects/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Application.dll
+D:/Projects/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Application.pdb
+D:/Projects/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Domain.dll
+D:/Projects/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Domain.pdb
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.csproj.AssemblyReference.cache
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.AssemblyInfoInputs.cache
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.AssemblyInfo.cs
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.csproj.CoreCompileInputs.cache
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderMan.B2E1D241.Up2Date
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.dll
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/refint/OrderManagement.Application.dll
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.pdb
+D:/Projects/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/ref/OrderManagement.Application.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Application.deps.json
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Application.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Application.pdb
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Domain.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/bin/Debug/net9.0/OrderManagement.Domain.pdb
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.csproj.AssemblyReference.cache
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.AssemblyInfoInputs.cache
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.AssemblyInfo.cs
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.csproj.CoreCompileInputs.cache
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderMan.B2E1D241.Up2Date
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/refint/OrderManagement.Application.dll
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/OrderManagement.Application.pdb
+/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/Debug/net9.0/ref/OrderManagement.Application.dll

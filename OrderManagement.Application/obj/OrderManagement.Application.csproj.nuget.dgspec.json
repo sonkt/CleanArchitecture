@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/OrderManagement.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/OrderManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/OrderManagement.Application.csproj",
+        "projectName": "OrderManagement.Application",
+        "projectPath": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/OrderManagement.Application.csproj",
+        "packagesPath": "/Users/sonkt/.nuget/packages/",
+        "outputPath": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sonkt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/OrderManagement.Domain.csproj": {
+                "projectPath": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/OrderManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "GbLib.BuildingBlock": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/sonkt/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/OrderManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/OrderManagement.Domain.csproj",
+        "projectName": "OrderManagement.Domain",
+        "projectPath": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/OrderManagement.Domain.csproj",
+        "packagesPath": "/Users/sonkt/.nuget/packages/",
+        "outputPath": "/Users/sonkt/Library/CloudStorage/GoogleDrive-shtbniit@gmail.com/My Drive/CleanArchitecture/OrderManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sonkt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "GbLib.BuildingBlock": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/sonkt/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
