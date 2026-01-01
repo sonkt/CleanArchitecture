@@ -17,7 +17,7 @@ namespace OrderManagement.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.4")
+                .HasAnnotation("ProductVersion", "10.0.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -44,8 +44,20 @@ namespace OrderManagement.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("OrderStatus")
                         .HasColumnType("int");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
@@ -63,12 +75,24 @@ namespace OrderManagement.Infrastructure.Migrations
                                 .ValueGeneratedOnAdd()
                                 .HasColumnType("uniqueidentifier");
 
+                            b1.Property<DateTime?>("DeletedAt")
+                                .HasColumnType("datetime2");
+
+                            b1.Property<Guid?>("DeletedBy")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<bool>("IsDeleted")
+                                .HasColumnType("bit");
+
                             b1.Property<string>("ProductName")
                                 .IsRequired()
                                 .HasColumnType("nvarchar(max)");
 
                             b1.Property<int>("Quantity")
                                 .HasColumnType("int");
+
+                            b1.Property<Guid>("TenantId")
+                                .HasColumnType("uniqueidentifier");
 
                             b1.Property<decimal>("UnitPrice")
                                 .HasPrecision(18, 2)

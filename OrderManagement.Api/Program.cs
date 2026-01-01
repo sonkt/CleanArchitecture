@@ -1,19 +1,24 @@
 ﻿using GbLib.BuildingBlock.Domain.Interfaces;
 using GbLib.BuildingBlock.Infrastructure.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 using OrderManagement.Application;
 using OrderManagement.Domain.Interfaces;
 using OrderManagement.Infrastructure.Persistence;
 using System.Text.Json.Serialization;
+using GbLib.BuildingBlock.Infrastructure.Interceptors;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>((sp, options) =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+        .AddInterceptors(
+                sp.GetRequiredService<AuditInterceptor>(),
+                sp.GetRequiredService<TenantInterceptor>()
+        )
 );
 
 builder.Services.AddScoped<IOrderQueryRepository, OrderQueryRepository>();
@@ -49,21 +54,6 @@ builder.Services.AddSwaggerGen(c =>
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
         Description = "Nhập token theo định dạng: Bearer {your JWT token}"
-    });
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            []
-        }
     });
 });
 

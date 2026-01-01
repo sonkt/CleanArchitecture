@@ -2,7 +2,7 @@
 
 namespace OrderManagement.Domain.Entities;
 
-public class Order : AggregateRoot<Guid>
+public class Order : AggregateTenantRoot<Guid>
 {
     public string CustomerName { get; set; }
     public string CustomerEmail { get; set; }
@@ -22,10 +22,12 @@ public class Order : AggregateRoot<Guid>
         CustomerPhone = customerPhone;
         CustomerAddress = customerAddress;
         OrderItems = items;
+        TenantId = Guid.Empty;
+        OrderStatus = OrderStatus.Pending;
     }
 }
 
-public sealed class OrderItem : Entity<Guid>
+public sealed class OrderItem : TenantEntity<Guid>
 {
     public string ProductName { get; set; }
     public int Quantity { get; set; }
@@ -42,6 +44,7 @@ public sealed class OrderItem : Entity<Guid>
         ProductName = productName;
         Quantity = quantity;
         UnitPrice = unitPrice;
+        TenantId = Guid.Empty;
     }
 }
 
